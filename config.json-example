@@ -1,0 +1,16 @@
+{ 
+	"TOKEN"					: "Discord Bot Token here",
+	"PREFIX"				: "!",
+	"BOT_NAME"				: "Your Bot Name",
+	"BOT_ACTIVITY"			: "botlife",
+	"GUILD_ID"				: "Discord Server ID",
+	"GAMES_CATEGORY_ID"		: "Catergory ID under which Voice Channels are made",
+	"GAMES_CATEGORY_NAME"	: "Catergory Name under which Voice Channels are made",
+	"CHANNEL_NAME"			: "Voice Channel",
+	"VOICE_BITRATE"			: 64000,
+	"LOGCHANNEL"			: "Channel ID for bot logging",
+	"ADMIN_ROLE"			: "Role Name for admins - leave empty for none",
+	"MOD_ROLE"				: "Role Name for mods - leave empty for none",
+	"USER_ROLE"				: "Role Name for users - leave empty for none",
+	"GLOBAL_ADMINS"			: [ "Username#7151", "Username2#1729" ]
+}

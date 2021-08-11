@@ -1,0 +1,15 @@
+{
+  "name": "autoscale",
+  "version": "1.0",
+  "description": "CBJ Channel AutoScaler",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matts Bos",
+  "license": "MIT"
+}
