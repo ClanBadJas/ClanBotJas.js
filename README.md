@@ -7,12 +7,14 @@ ClanBotJas Discord Bot, based on Discord.js version 12.4 is a simple, self-hoste
 The AutoScaler functionality of this bot keeps an eye on a specific Voice Channel Category in the Discord server and makes sure there is always an empty Voice Channel available to use. When a user joins an empty Voice Channel, the bot creates a new Voice Channel if other users want a seperate conversation. When users leave a Voice Channel, the extra Voice Channel will be removed automatically to get back to a single empty Voice Channel.
 
 The AutoScaler settings can make use of higher Discord Server Boost Voice Quality settings, configured in the `config.json`.
+
 ![AutoScaler](https://github.com/ClanBadJas/ClanBotJas.js/blob/main/docs/screenshots/AutoScaler.png)
 
 
 ## AutoRename
 On top of the above AutoScaler functionality, the bot is also built to reflect the activity which has the majority amongst the users in the Voice Channel. For example, if three users are in a Voice Channel and two of them are playing the game Factorio, the channel name will change to "Factorio". In a 50-50 situation, a random user activity will be selected.
 When all users disconnect, the Voice Channel name will automatically be reset to the default name specified in the `config.json`.
+
 ![AutoRename](https://github.com/ClanBadJas/ClanBotJas.js/blob/main/docs/screenshots/AutoRename.png)
 
 
