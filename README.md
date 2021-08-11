@@ -22,10 +22,15 @@ When all users disconnect, the Voice Channel name will automatically be reset to
 The bot has a few basic commands which can be useful (functions and permissions can be set in the corresponding `<command>.js` file inside the `commands` folder).
 
 `help` - Shows generic help or help for a specific command if specified as argument.
+
 `load` - Loads a newly added module on the fly from the `commands` folder.
+
 `ping` - Simple ping command to see if the bot is still alive and what the latency is.
+
 `purge <1-99>` - purges X amount of messages from the current channel, maximum 99 at a time.
+
 `reload` - Reloads .js command from the `commands` folder.
+
 `say` - Makes the bot say your message and deletes the message with your command.
 
 
