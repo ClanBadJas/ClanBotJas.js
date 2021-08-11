@@ -41,7 +41,7 @@ Clone this repository to the folder you want to run the bot from and use `npm ru
 
 Copy/rename `config.js-example` to `config.js` and edit your settings (to get ID's from your Discord server, enable `Developer mode` in your Discord client, then right click the object you want to copy the ID from and press `Copy ID` from the dropdown list).
 
-In case your run (Debian) Linux like we do, make it start at boot as a service with the following systemd file:
+In case your run (Debian) Linux like we do, make it start at boot as a service with the following systemd file `clanbotjas.service`:
 ```
 [Unit]
 Description=ClanBotJas Discord Bot
@@ -49,7 +49,7 @@ Description=ClanBotJas Discord Bot
 [Service]
 ExecStart=/usr/bin/node /path/to/clanbotjas/index.js
 Restart=always
-WorkingDirectory=/path/to//clanbotjas
+WorkingDirectory=/path/to/clanbotjas
 
 [Install]
 WantedBy=multi-user.target
